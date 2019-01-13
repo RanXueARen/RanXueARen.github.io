@@ -6,5 +6,15 @@
 </head>
 <body>
 <h1>2019年1月13日 正式在一起啦</h1>
+<button onclick="sayLove()">点这个说我爱你</button>
+<script>
+    function sayLove() {
+        var a=window.prompt('请输入要说多少遍');
+        document.body.append('我爱你');
+        for(var i=0;i<a;i++){
+            alert('我爱你');
+        }
+    }
+</script>
 </body>
 </html>
